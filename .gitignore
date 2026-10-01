@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.local
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Uploads
+# =========================
+uploads/screenshots/*
+uploads/audio/*
+
+# Keep folders
+!uploads/screenshots/.gitkeep
+!uploads/audio/.gitkeep
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+build/
+.next/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Cache
+# =========================
+.cache/
+*.cache
+
+# =========================
+# Generated Files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Antigravity / Local Config
+# =========================
+.antigravity/

@@ -1,0 +1,16 @@
+{
+  "name": "point-feedback-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:dashboard": "npm --prefix apps/dashboard run dev",
+    "dev:widget": "npm --prefix apps/widget run dev",
+    "dev:api": "python apps/api/main.py",
+    "build:widget": "npm --prefix apps/widget run build",
+    "build:dashboard": "npm --prefix apps/dashboard run build"
+  }
+}
